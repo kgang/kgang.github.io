@@ -55,17 +55,20 @@ ul {
 
 @media(max-width:600px){
   header {
-    color: white;
+    color: aliceblue;
     margin: 0;
     position: absolute;
-    top: 55%;
-    left: 10%;
-    -ms-transform: translate(-10%, -55%);
-    transform: translate(-10%, -55%);
+    top: 75%;
+    left: 15%;
+    -ms-transform: translate(-15%, -75%);
+    transform: translate(-15%, -75%);
     text-align: left;
 
     line-height: .9em;
     letter-spacing: .2em;
     font-size: .7em;
+  }
+  li {
+    padding: .25em;
   }
 }
