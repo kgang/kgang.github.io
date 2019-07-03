@@ -52,3 +52,20 @@ li {
 ul {
   padding: 0;
 }
+
+@media(max-width:600px){
+  header {
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    -ms-transform: translate(-10%, -55%);
+    transform: translate(-10%, -55%);
+    text-align: left;
+
+    line-height: .9em;
+    letter-spacing: .2em;
+    font-size: .7em;
+  }
+}
