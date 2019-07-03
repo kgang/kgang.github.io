@@ -1,0 +1,54 @@
+* {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color:deepskyblue;
+}
+
+a:hover {
+  color:aquamarine;
+}
+
+a:visited {
+  color: slateblue;
+}
+
+body {
+ background-color: rgb(1,1,1);
+ background-image: url(../images/trees2.jpg);
+ background-repeat: no-repeat;
+ min-height: 100%;
+}
+
+h1 {
+  font-weight: 4200;
+  letter-spacing: .3em;
+  padding: none;
+}
+
+header {
+  color: white;
+  margin: 0;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  -ms-transform: translate(-50%, -15%);
+  transform: translate(-50%, -15%);
+  text-align: center;
+
+  line-height: .9em;
+  letter-spacing: .2em
+}
+
+li {
+  padding: 0;
+  list-style: none;
+  display: inline;
+  font-size: 1.7em;
+}
+
+ul {
+  padding: 0;
+}
